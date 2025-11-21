@@ -35,8 +35,7 @@ def count_atoms_in_molecule(formula):
     result2 = split_at_first_digit(i)
     mol_dict[result2[0]] = int(result2[1])
   return mol_dict
-  for atom in split_before_each_uppercases(molecular_formula):
-      atom_name, atom_count = split_at_first_digit(atom)
+
 
     # Step 1: Initialize an empty dictionary to store atom counts
         

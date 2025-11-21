@@ -36,16 +36,6 @@ def count_atoms_in_molecule(formula):
     mol_dict[result2[0]] = int(result2[1])
   return mol_dict
 
-
-    # Step 1: Initialize an empty dictionary to store atom counts
-  for atom in split_before_each_uppercases(molecular_formula):
-      atom_name, atom_count = split_at_first_digit(atom)
-        # Step 2: Update the dictionary with the atom name and count
-
-    # Step 3: Return the completed dictionary
-
-
-
 def parse_chemical_reaction(reaction_equation):
     """Takes a reaction equation (string) and returns reactants and products as lists.  
     Example: 'H2 + O2 -> H2O' → (['H2', 'O2'], ['H2O'])"""
